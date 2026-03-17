@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AA3CA79A1E81AB3E2DCF56F /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED44EA855AE8C89CAABAEC92 /* AppConstants.swift */; };
+		0AB201477338B00706519571 /* BridgeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB70966E1F5DFE1C740C39A /* BridgeModels.swift */; };
+		16129882507284AEA8E2EA32 /* BridgeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB70966E1F5DFE1C740C39A /* BridgeModels.swift */; };
+		276D25D8004403FF0B2D87CF /* WhiskersBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E34E4196F91D034860A5763 /* WhiskersBridge.swift */; };
+		2C1ECA56F68412CD6E1342C2 /* BridgeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB116B29A6C0556B89539F92 /* BridgeClient.swift */; };
+		30FE2195029166661BF5418C /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED44EA855AE8C89CAABAEC92 /* AppConstants.swift */; };
+		4F712786E33828A4A6253FF2 /* PythonBridgeRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EAE32B79DAE488243AF2EA /* PythonBridgeRunner.swift */; };
+		53A2D02875CD8392A43AADF8 /* KeychainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53806743F6174F64126C5E7 /* KeychainStore.swift */; };
+		59BCBD16CF0329D7F61B968A /* LocalHTTPServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2715C995DA1338A7F370ABD4 /* LocalHTTPServer.swift */; };
+		5AA3FDFEF0AE1ED3A8B30139 /* GiveSnackControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC01F5C7C4BAF06C5F4DFA5 /* GiveSnackControl.swift */; };
+		69D51E40A585BF0FA56071A1 /* WhiskersControlsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108F8A31D1E718840D777F2D /* WhiskersControlsBundle.swift */; };
+		73AC82B80A1015126C31807B /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E950D5BA75C12B33A83375 /* AppModel.swift */; };
+		7C1BA3F148343A9CAB4D5255 /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23401B976754B534BEF42A44 /* SettingsStore.swift */; };
+		7E55EBA952FF5C7F8C9AD939 /* AppIntentsPackageLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6782406808394EDD3E89C7 /* AppIntentsPackageLink.swift */; };
+		972157B2F48C500655555635 /* Python in Resources */ = {isa = PBXBuildFile; fileRef = D6E6C98927A96894C3531BE2 /* Python */; };
+		9B8A698E87CE1C47A2CA9751 /* WhiskersControls.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 44C8B06D534114F374BBBA8E /* WhiskersControls.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AA02C5DA98F9D86B85049E81 /* LaunchAtLoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6767BC1E777EB3A7A1AD028F /* LaunchAtLoginManager.swift */; };
+		BD775DE4AB486EE043924337 /* FeederOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CC9658432FB0E2AD4E2C71 /* FeederOption.swift */; };
+		BE371F48C4D948FC9E9C0F3A /* WhiskersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78576AF86FA262E2014F84F /* WhiskersApp.swift */; };
+		BEE0CB861952DA5603D07106 /* BridgeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB116B29A6C0556B89539F92 /* BridgeClient.swift */; };
+		C4FEEBB712A039DAB6BBB484 /* AppIntentsLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87B32C6A080B6D56A690794 /* AppIntentsLink.swift */; };
+		D0F716711904FF2C209648F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D02DD2F1D5475EAA9B7A2A /* ContentView.swift */; };
+		D7EB1A7C6268CFBD5EEDE467 /* GiveSnackIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B87E888134B29C556DE176 /* GiveSnackIntent.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF208CFC137206A9E66D0F4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19538BDBB2743E5A43F9AA02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13CD89588CBB24A22F6A818C;
+			remoteInfo = WhiskersControls;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		44F1F7EF4DA20D5329650480 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9B8A698E87CE1C47A2CA9751 /* WhiskersControls.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		03B68343FB50C5395BCB50C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0AB70966E1F5DFE1C740C39A /* BridgeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeModels.swift; sourceTree = "<group>"; };
+		108F8A31D1E718840D777F2D /* WhiskersControlsBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiskersControlsBundle.swift; sourceTree = "<group>"; };
+		11D02DD2F1D5475EAA9B7A2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		23401B976754B534BEF42A44 /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
+		2715C995DA1338A7F370ABD4 /* LocalHTTPServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalHTTPServer.swift; sourceTree = "<group>"; };
+		44C8B06D534114F374BBBA8E /* WhiskersControls.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WhiskersControls.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		52665654935CAFD8F4AA6EE5 /* WhiskersMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WhiskersMac.entitlements; sourceTree = "<group>"; };
+		61CC9658432FB0E2AD4E2C71 /* FeederOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeederOption.swift; sourceTree = "<group>"; };
+		6767BC1E777EB3A7A1AD028F /* LaunchAtLoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchAtLoginManager.swift; sourceTree = "<group>"; };
+		6FE67EF5C5B3B53ED5C79D47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		75B87E888134B29C556DE176 /* GiveSnackIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiveSnackIntent.swift; sourceTree = "<group>"; };
+		79E950D5BA75C12B33A83375 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		8EC01F5C7C4BAF06C5F4DFA5 /* GiveSnackControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiveSnackControl.swift; sourceTree = "<group>"; };
+		9E34E4196F91D034860A5763 /* WhiskersBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiskersBridge.swift; sourceTree = "<group>"; };
+		A87B32C6A080B6D56A690794 /* AppIntentsLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntentsLink.swift; sourceTree = "<group>"; };
+		AC94AFFAC217CA93A1C6CA44 /* WhiskersControls.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WhiskersControls.entitlements; sourceTree = "<group>"; };
+		B53806743F6174F64126C5E7 /* KeychainStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStore.swift; sourceTree = "<group>"; };
+		C6EAE32B79DAE488243AF2EA /* PythonBridgeRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythonBridgeRunner.swift; sourceTree = "<group>"; };
+		CB6782406808394EDD3E89C7 /* AppIntentsPackageLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntentsPackageLink.swift; sourceTree = "<group>"; };
+		D6E6C98927A96894C3531BE2 /* Python */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Python; sourceTree = SOURCE_ROOT; };
+		EB116B29A6C0556B89539F92 /* BridgeClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeClient.swift; sourceTree = "<group>"; };
+		EB884007537900F7A908C3F7 /* WhiskersMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhiskersMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED44EA855AE8C89CAABAEC92 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		F78576AF86FA262E2014F84F /* WhiskersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiskersApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0604919C2015F018652CA5E3 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				ED44EA855AE8C89CAABAEC92 /* AppConstants.swift */,
+				EB116B29A6C0556B89539F92 /* BridgeClient.swift */,
+				0AB70966E1F5DFE1C740C39A /* BridgeModels.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A0D56661056D9BADD576DD96 = {
+			isa = PBXGroup;
+			children = (
+				D6E6C98927A96894C3531BE2 /* Python */,
+				0604919C2015F018652CA5E3 /* Shared */,
+				E89E8DB7F8B601B024CA3ACD /* WhiskersControls */,
+				A556D89F890B2D12C1E5A018 /* WhiskersMac */,
+				AE2D2B5327F9A11C925B0C15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A556D89F890B2D12C1E5A018 /* WhiskersMac */ = {
+			isa = PBXGroup;
+			children = (
+				6FE67EF5C5B3B53ED5C79D47 /* Info.plist */,
+				52665654935CAFD8F4AA6EE5 /* WhiskersMac.entitlements */,
+				F3F97C69B9043C749C6407BF /* App */,
+			);
+			path = WhiskersMac;
+			sourceTree = "<group>";
+		};
+		AE2D2B5327F9A11C925B0C15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44C8B06D534114F374BBBA8E /* WhiskersControls.appex */,
+				EB884007537900F7A908C3F7 /* WhiskersMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E89E8DB7F8B601B024CA3ACD /* WhiskersControls */ = {
+			isa = PBXGroup;
+			children = (
+				CB6782406808394EDD3E89C7 /* AppIntentsPackageLink.swift */,
+				8EC01F5C7C4BAF06C5F4DFA5 /* GiveSnackControl.swift */,
+				75B87E888134B29C556DE176 /* GiveSnackIntent.swift */,
+				03B68343FB50C5395BCB50C1 /* Info.plist */,
+				AC94AFFAC217CA93A1C6CA44 /* WhiskersControls.entitlements */,
+				108F8A31D1E718840D777F2D /* WhiskersControlsBundle.swift */,
+			);
+			path = WhiskersControls;
+			sourceTree = "<group>";
+		};
+		F3F97C69B9043C749C6407BF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A87B32C6A080B6D56A690794 /* AppIntentsLink.swift */,
+				79E950D5BA75C12B33A83375 /* AppModel.swift */,
+				11D02DD2F1D5475EAA9B7A2A /* ContentView.swift */,
+				61CC9658432FB0E2AD4E2C71 /* FeederOption.swift */,
+				B53806743F6174F64126C5E7 /* KeychainStore.swift */,
+				6767BC1E777EB3A7A1AD028F /* LaunchAtLoginManager.swift */,
+				2715C995DA1338A7F370ABD4 /* LocalHTTPServer.swift */,
+				C6EAE32B79DAE488243AF2EA /* PythonBridgeRunner.swift */,
+				23401B976754B534BEF42A44 /* SettingsStore.swift */,
+				F78576AF86FA262E2014F84F /* WhiskersApp.swift */,
+				9E34E4196F91D034860A5763 /* WhiskersBridge.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13CD89588CBB24A22F6A818C /* WhiskersControls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9018E7B09586B6107BB2BC20 /* Build configuration list for PBXNativeTarget "WhiskersControls" */;
+			buildPhases = (
+				2F2C212D41051C5CAE024DE4 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhiskersControls;
+			packageProductDependencies = (
+			);
+			productName = WhiskersControls;
+			productReference = 44C8B06D534114F374BBBA8E /* WhiskersControls.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		EEB992CB76936214E78B21FE /* WhiskersMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66BE1319D245D34C350C74DE /* Build configuration list for PBXNativeTarget "WhiskersMac" */;
+			buildPhases = (
+				9DDC5F3D73CA172C55E1CCC4 /* Sources */,
+				5E01B1D647739E96ED8E7C3E /* Resources */,
+				44F1F7EF4DA20D5329650480 /* Embed Foundation Extensions */,
+				B0680EDF2A1D4AB8A10738BD /* Prepare Embedded Python */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0CCA95E5A4963B1BBD970B1 /* PBXTargetDependency */,
+			);
+			name = WhiskersMac;
+			packageProductDependencies = (
+			);
+			productName = WhiskersMac;
+			productReference = EB884007537900F7A908C3F7 /* WhiskersMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19538BDBB2743E5A43F9AA02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 5A1DCD59293377E2284745A3 /* Build configuration list for PBXProject "Whiskers" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = A0D56661056D9BADD576DD96;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13CD89588CBB24A22F6A818C /* WhiskersControls */,
+				EEB992CB76936214E78B21FE /* WhiskersMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E01B1D647739E96ED8E7C3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				972157B2F48C500655555635 /* Python in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B0680EDF2A1D4AB8A10738BD /* Prepare Embedded Python */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Prepare Embedded Python";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -euo pipefail\n\"$SRCROOT/Scripts/prepare_embedded_python.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F2C212D41051C5CAE024DE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA3CA79A1E81AB3E2DCF56F /* AppConstants.swift in Sources */,
+				7E55EBA952FF5C7F8C9AD939 /* AppIntentsPackageLink.swift in Sources */,
+				2C1ECA56F68412CD6E1342C2 /* BridgeClient.swift in Sources */,
+				16129882507284AEA8E2EA32 /* BridgeModels.swift in Sources */,
+				5AA3FDFEF0AE1ED3A8B30139 /* GiveSnackControl.swift in Sources */,
+				D7EB1A7C6268CFBD5EEDE467 /* GiveSnackIntent.swift in Sources */,
+				69D51E40A585BF0FA56071A1 /* WhiskersControlsBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DDC5F3D73CA172C55E1CCC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30FE2195029166661BF5418C /* AppConstants.swift in Sources */,
+				C4FEEBB712A039DAB6BBB484 /* AppIntentsLink.swift in Sources */,
+				73AC82B80A1015126C31807B /* AppModel.swift in Sources */,
+				BEE0CB861952DA5603D07106 /* BridgeClient.swift in Sources */,
+				0AB201477338B00706519571 /* BridgeModels.swift in Sources */,
+				D0F716711904FF2C209648F7 /* ContentView.swift in Sources */,
+				BD775DE4AB486EE043924337 /* FeederOption.swift in Sources */,
+				53A2D02875CD8392A43AADF8 /* KeychainStore.swift in Sources */,
+				AA02C5DA98F9D86B85049E81 /* LaunchAtLoginManager.swift in Sources */,
+				59BCBD16CF0329D7F61B968A /* LocalHTTPServer.swift in Sources */,
+				4F712786E33828A4A6253FF2 /* PythonBridgeRunner.swift in Sources */,
+				7C1BA3F148343A9CAB4D5255 /* SettingsStore.swift in Sources */,
+				BE371F48C4D948FC9E9C0F3A /* WhiskersApp.swift in Sources */,
+				276D25D8004403FF0B2D87CF /* WhiskersBridge.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0CCA95E5A4963B1BBD970B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13CD89588CBB24A22F6A818C /* WhiskersControls */;
+			targetProxy = DF208CFC137206A9E66D0F4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		27E3EC93CED924929F42C2F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = WhiskersControls/WhiskersControls.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WhiskersControls/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nealmueller.WhiskersMac.Controls;
+				PRODUCT_NAME = WhiskersControls;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3DB5BE804DDA54ED52E0CA83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = WhiskersControls/WhiskersControls.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WhiskersControls/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nealmueller.WhiskersMac.Controls;
+				PRODUCT_NAME = WhiskersControls;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4A0B4C63D9D246E9D04D8A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		8152EAA856F3589E7B08AC36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WhiskersMac/WhiskersMac.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WhiskersMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nealmueller.WhiskersMac;
+				PRODUCT_NAME = Whiskers;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		99F9CB3F8789110F01D422E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		BA73BF1D54ADE1D8011014B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WhiskersMac/WhiskersMac.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WhiskersMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nealmueller.WhiskersMac;
+				PRODUCT_NAME = Whiskers;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A1DCD59293377E2284745A3 /* Build configuration list for PBXProject "Whiskers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0B4C63D9D246E9D04D8A63 /* Debug */,
+				99F9CB3F8789110F01D422E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		66BE1319D245D34C350C74DE /* Build configuration list for PBXNativeTarget "WhiskersMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA73BF1D54ADE1D8011014B6 /* Debug */,
+				8152EAA856F3589E7B08AC36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9018E7B09586B6107BB2BC20 /* Build configuration list for PBXNativeTarget "WhiskersControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E3EC93CED924929F42C2F4 /* Debug */,
+				3DB5BE804DDA54ED52E0CA83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19538BDBB2743E5A43F9AA02 /* Project object */;
+}

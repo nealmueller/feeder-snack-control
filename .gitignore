@@ -1,0 +1,8 @@
+.DS_Store
+DerivedData/
+build/
+*.xcworkspace
+xcuserdata/
+*.xcuserstate
+VendorPython/embedded/python/
+VendorPython/embedded/site-packages/

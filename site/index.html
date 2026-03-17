@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Feeder Snack Control</title>
+  <style>
+    :root {
+      --bg: #15202f;
+      --panel: #1f2e43;
+      --ink: #f8f1e4;
+      --muted: #c3c7cf;
+      --accent: #eb8d3d;
+      --accent-2: #ea5f4d;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: ui-rounded, "SF Pro Rounded", "Avenir Next", system-ui, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top, rgba(235, 141, 61, 0.18), transparent 35%),
+        linear-gradient(180deg, #142031 0%, #0f1723 100%);
+    }
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 72px 24px 96px;
+    }
+    .hero {
+      background: rgba(31, 46, 67, 0.82);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 28px;
+      padding: 40px;
+      box-shadow: 0 24px 80px rgba(0, 0, 0, 0.22);
+    }
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 18px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(235, 141, 61, 0.14);
+      color: #ffd2a8;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 0 0 14px;
+      font-size: clamp(42px, 8vw, 72px);
+      line-height: 0.96;
+    }
+    p {
+      margin: 0 0 18px;
+      color: var(--muted);
+      font-size: 18px;
+      line-height: 1.55;
+    }
+    .cta {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 14px 18px;
+      border-radius: 14px;
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      color: white;
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+      margin-top: 24px;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 20px;
+      padding: 20px;
+    }
+    .card h2 {
+      margin: 0 0 10px;
+      font-size: 18px;
+    }
+    footer {
+      margin-top: 26px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    a { color: inherit; }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <div class="eyebrow">macOS utility</div>
+      <h1>One tap. Cat fed.</h1>
+      <p>Feeder Snack Control puts a single feeder action in macOS Control Center. One tap, one snack, with no Dock clutter and no extra installation steps.</p>
+      <a class="cta" href="./privacy.html">Privacy</a>
+      <div class="grid">
+        <article class="card">
+          <h2>Control Center first</h2>
+          <p>Built around a single system control for one clear action: send a snack.</p>
+        </article>
+        <article class="card">
+          <h2>Runs quietly</h2>
+          <p>The app can stay in the background instead of living in your Dock or Command-Tab list.</p>
+        </article>
+        <article class="card">
+          <h2>Local by default</h2>
+          <p>Credentials are stored on-device and the action is performed from the Mac that is running the app.</p>
+        </article>
+      </div>
+      <footer>
+        Unofficial utility for compatible feeder hardware.
+      </footer>
+    </section>
+  </main>
+</body>
+</html>
