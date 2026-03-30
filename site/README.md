@@ -8,6 +8,7 @@ Expected URLs after deployment:
 
 - `/` -> marketing page
 - `/privacy.html` -> privacy policy
+- `/notices.html` -> open source notices
 
 To publish:
 
