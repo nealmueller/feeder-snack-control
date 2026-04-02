@@ -6,17 +6,21 @@
   <title>Feeder Snack Control Open Source Notices</title>
   <style>
     :root {
-      --bg: #f6f1e7;
-      --panel: #fffdf8;
-      --ink: #1f2430;
-      --muted: #5a6473;
-      --line: #e5ddd0;
-      --accent: #d56f36;
+      --bg: #f6f8fb;
+      --panel: #ffffff;
+      --ink: #0f172a;
+      --muted: #475569;
+      --line: #dbe3ee;
+      --accent: #2563eb;
+      --accent-2: #1d4ed8;
+      --soft: #eef4ff;
     }
     * { box-sizing: border-box; }
     body {
       margin: 0;
-      background: linear-gradient(180deg, #fffaf3 0%, #f3ebdd 100%);
+      background:
+        radial-gradient(circle at top, rgba(37, 99, 235, 0.08), transparent 34%),
+        linear-gradient(180deg, #fbfdff 0%, var(--bg) 100%);
       color: var(--ink);
       font-family: ui-sans-serif, "SF Pro Text", system-ui, sans-serif;
     }
@@ -26,11 +30,23 @@
       padding: 56px 24px 80px;
     }
     .panel {
-      background: rgba(255,255,255,0.94);
+      background: var(--panel);
       border: 1px solid var(--line);
-      border-radius: 24px;
+      border-radius: 28px;
       padding: 36px;
-      box-shadow: 0 12px 40px rgba(86, 65, 40, 0.08);
+      box-shadow: 0 24px 64px rgba(15, 23, 42, 0.08);
+    }
+    .nav {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 22px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .nav a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
     }
     h1, h2 { margin-top: 0; }
     h1 { font-size: clamp(32px, 5vw, 52px); margin-bottom: 18px; }
@@ -45,16 +61,23 @@
       padding: 0;
     }
     .meta {
+      display: inline-block;
       color: var(--accent);
+      background: var(--soft);
+      border-radius: 999px;
+      padding: 8px 12px;
       font-weight: 700;
       margin-bottom: 18px;
+      font-size: 13px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
     }
     pre {
       overflow-x: auto;
       padding: 18px;
       border-radius: 16px;
-      background: #221f1b;
-      color: #f6efe6;
+      background: #0f172a;
+      color: #e2e8f0;
       font-size: 14px;
       line-height: 1.5;
       white-space: pre-wrap;
@@ -65,6 +88,10 @@
 <body>
   <main>
     <section class="panel">
+      <div class="nav">
+        <a href="./index.html">Home</a>
+        <a href="./privacy.html">Privacy</a>
+      </div>
       <div class="meta">Last updated: March 30, 2026</div>
       <h1>Open Source Notices</h1>
       <p>Feeder Snack Control includes third-party open source software. This page provides attribution and license notices for bundled components.</p>

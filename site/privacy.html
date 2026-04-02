@@ -6,17 +6,21 @@
   <title>Feeder Snack Control Privacy Policy</title>
   <style>
     :root {
-      --bg: #fbf8f2;
+      --bg: #f6f8fb;
       --panel: #ffffff;
-      --ink: #1f2430;
-      --muted: #606977;
-      --line: #e5ddd0;
-      --accent: #d56f36;
+      --ink: #0f172a;
+      --muted: #475569;
+      --line: #dbe3ee;
+      --accent: #2563eb;
+      --accent-2: #1d4ed8;
+      --soft: #eef4ff;
     }
     * { box-sizing: border-box; }
     body {
       margin: 0;
-      background: linear-gradient(180deg, #fffaf3 0%, #f4ede2 100%);
+      background:
+        radial-gradient(circle at top, rgba(37, 99, 235, 0.08), transparent 34%),
+        linear-gradient(180deg, #fbfdff 0%, var(--bg) 100%);
       color: var(--ink);
       font-family: ui-sans-serif, "SF Pro Text", system-ui, sans-serif;
     }
@@ -26,11 +30,23 @@
       padding: 56px 24px 80px;
     }
     .panel {
-      background: rgba(255,255,255,0.92);
+      background: var(--panel);
       border: 1px solid var(--line);
-      border-radius: 24px;
+      border-radius: 28px;
       padding: 36px;
-      box-shadow: 0 12px 40px rgba(86, 65, 40, 0.08);
+      box-shadow: 0 24px 64px rgba(15, 23, 42, 0.08);
+    }
+    .nav {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 22px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .nav a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
     }
     h1, h2 { margin-top: 0; }
     h1 { font-size: clamp(32px, 5vw, 52px); margin-bottom: 18px; }
@@ -45,9 +61,16 @@
       padding: 0;
     }
     .meta {
+      display: inline-block;
       color: var(--accent);
+      background: var(--soft);
+      border-radius: 999px;
+      padding: 8px 12px;
       font-weight: 700;
       margin-bottom: 18px;
+      font-size: 13px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
     }
     a { color: var(--accent); }
   </style>
@@ -55,6 +78,10 @@
 <body>
   <main>
     <section class="panel">
+      <div class="nav">
+        <a href="./index.html">Home</a>
+        <a href="./notices.html">Open Source Notices</a>
+      </div>
       <div class="meta">Last updated: March 17, 2026</div>
       <h1>Privacy Policy</h1>
       <p>Feeder Snack Control is an unofficial macOS utility that sends a snack command to supported feeder hardware using the credentials you provide.</p>

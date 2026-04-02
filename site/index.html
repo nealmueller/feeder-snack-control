@@ -36,6 +36,18 @@
       padding: 40px;
       box-shadow: 0 24px 64px rgba(15, 23, 42, 0.08);
     }
+    .nav {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 22px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .nav a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
     .eyebrow {
       display: inline-block;
       margin-bottom: 18px;
@@ -60,23 +72,13 @@
       line-height: 1.6;
     }
     .cta {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
       margin-top: 10px;
-      padding: 14px 18px;
-      border-radius: 14px;
-      background: linear-gradient(135deg, var(--accent), var(--accent-2));
-      color: white;
-      font-weight: 700;
       text-decoration: none;
-      box-shadow: 0 10px 24px rgba(37, 99, 235, 0.2);
     }
-    .cta svg {
-      width: 18px;
-      height: 18px;
-      fill: currentColor;
-      flex: 0 0 auto;
+    .cta img {
+      height: 52px;
+      width: auto;
+      display: block;
     }
     .footer-links {
       display: inline-block;
@@ -114,14 +116,15 @@
 <body>
   <main>
     <section class="hero">
+      <div class="nav">
+        <a href="./privacy.html">Privacy</a>
+        <a href="./notices.html">Open Source Notices</a>
+      </div>
       <div class="eyebrow">macOS utility</div>
       <h1>Fast snack control for Feeder-Robot.</h1>
       <p>Feeder Snack Control adds a single snack action to macOS Control Center and the menu bar.</p>
       <a class="cta" href="https://apps.apple.com/us/app/feeder-snack-control/id6760721222?mt=12" aria-label="Download on the App Store">
-        <svg viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M16.37 12.33c.02 2.43 2.13 3.24 2.15 3.25-.02.06-.34 1.19-1.11 2.35-.67 1-1.37 1.99-2.47 2.01-1.08.02-1.43-.64-2.67-.64s-1.62.62-2.65.66c-1.03.04-1.82-1.04-2.49-2.03-1.37-1.98-2.41-5.58-1.01-8.01.69-1.21 1.94-1.98 3.29-2 1.03-.02 2 .69 2.67.69.67 0 1.93-.86 3.25-.73.55.02 2.09.22 3.08 1.67-.08.05-1.84 1.08-1.82 2.78Zm-2.19-5.78c.56-.68.94-1.64.84-2.58-.81.03-1.79.54-2.37 1.22-.52.59-.98 1.56-.85 2.47.91.07 1.82-.46 2.38-1.11Z"/>
-        </svg>
-        Download on the App Store
+        <img src="./assets/app-store-badge.svg" alt="Download on the App Store">
       </a>
       <div class="grid">
         <article class="card">
@@ -130,7 +133,7 @@
         </article>
         <article class="card">
           <h2>Local</h2>
-          <p>Runs on-device. No separate hosted service.</p>
+          <p>Runs on-device.</p>
         </article>
         <article class="card">
           <h2>Keychain</h2>
@@ -153,8 +156,6 @@
         Unofficial utility for supported feeder hardware.
         <br>
         Uses <a href="https://github.com/natekspencer/pylitterbot">pylitterbot</a>. See <a href="./notices.html">Open Source Notices</a>.
-        <br>
-        <span class="footer-links"><a href="./privacy.html">Privacy</a></span>
       </footer>
     </section>
   </main>
