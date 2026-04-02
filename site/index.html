@@ -36,18 +36,6 @@
       padding: 40px;
       box-shadow: 0 24px 64px rgba(15, 23, 42, 0.08);
     }
-    .nav {
-      display: flex;
-      gap: 16px;
-      margin-bottom: 22px;
-      color: var(--muted);
-      font-size: 14px;
-    }
-    .nav a {
-      color: var(--accent);
-      text-decoration: none;
-      font-weight: 600;
-    }
     .eyebrow {
       display: inline-block;
       margin-bottom: 18px;
@@ -81,8 +69,15 @@
       display: block;
     }
     .footer-links {
-      display: inline-block;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
       margin-top: 10px;
+    }
+    .footer-links a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
     }
     .grid {
       display: grid;
@@ -116,10 +111,6 @@
 <body>
   <main>
     <section class="hero">
-      <div class="nav">
-        <a href="./privacy.html">Privacy</a>
-        <a href="./notices.html">Open Source Notices</a>
-      </div>
       <div class="eyebrow">macOS utility</div>
       <h1>Fast snack control for Feeder-Robot.</h1>
       <p>Feeder Snack Control adds a single snack action to macOS Control Center and the menu bar.</p>
@@ -156,6 +147,10 @@
         Unofficial utility for supported feeder hardware.
         <br>
         Uses <a href="https://github.com/natekspencer/pylitterbot">pylitterbot</a>. See <a href="./notices.html">Open Source Notices</a>.
+        <div class="footer-links">
+          <a href="./privacy.html">Privacy</a>
+          <a href="./notices.html">Open Source Notices</a>
+        </div>
       </footer>
     </section>
   </main>

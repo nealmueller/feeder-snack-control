@@ -36,18 +36,6 @@
       padding: 36px;
       box-shadow: 0 24px 64px rgba(15, 23, 42, 0.08);
     }
-    .nav {
-      display: flex;
-      gap: 16px;
-      margin-bottom: 22px;
-      color: var(--muted);
-      font-size: 14px;
-    }
-    .nav a {
-      color: var(--accent);
-      text-decoration: none;
-      font-weight: 600;
-    }
     h1, h2 { margin-top: 0; }
     h1 { font-size: clamp(32px, 5vw, 52px); margin-bottom: 18px; }
     h2 { font-size: 22px; margin-top: 28px; margin-bottom: 10px; }
@@ -82,16 +70,24 @@
       line-height: 1.5;
       white-space: pre-wrap;
     }
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-top: 24px;
+      font-size: 14px;
+    }
+    .footer-links a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
     a { color: var(--accent); }
   </style>
 </head>
 <body>
   <main>
     <section class="panel">
-      <div class="nav">
-        <a href="./index.html">Home</a>
-        <a href="./privacy.html">Privacy</a>
-      </div>
       <div class="meta">Last updated: March 30, 2026</div>
       <h1>Open Source Notices</h1>
       <p>Feeder Snack Control includes third-party open source software. This page provides attribution and license notices for bundled components.</p>
@@ -121,7 +117,10 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.</pre>
 
-      <p><a href="./index.html">Back to Feeder Snack Control</a></p>
+      <div class="footer-links">
+        <a href="./index.html">Home</a>
+        <a href="./privacy.html">Privacy</a>
+      </div>
     </section>
   </main>
 </body>
