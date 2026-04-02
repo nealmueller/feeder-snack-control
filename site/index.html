@@ -58,7 +58,9 @@
       line-height: 1.55;
     }
     .cta {
-      display: inline-block;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
       margin-top: 10px;
       padding: 14px 18px;
       border-radius: 14px;
@@ -67,24 +69,15 @@
       font-weight: 700;
       text-decoration: none;
     }
-    .actions {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
+    .cta svg {
+      width: 18px;
+      height: 18px;
+      fill: currentColor;
+      flex: 0 0 auto;
+    }
+    .footer-links {
+      display: inline-block;
       margin-top: 10px;
-    }
-    .link-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px 18px;
-      margin-top: 18px;
-      color: var(--muted);
-      font-size: 15px;
-    }
-    .link-row a {
-      color: #ffd2a8;
-      text-decoration: none;
-      font-weight: 600;
     }
     .grid {
       display: grid;
@@ -116,14 +109,12 @@
       <div class="eyebrow">macOS utility</div>
       <h1>One tap. Cat fed.</h1>
       <p>Feeder Snack Control puts a single feeder action in macOS Control Center. One tap, one snack, with no Dock clutter and no extra installation steps.</p>
-      <div class="actions">
-        <a class="cta" href="https://apps.apple.com/us/app/feeder-snack-control/id6760721222?mt=12">Download on the App Store</a>
-        <a class="cta" href="./privacy.html">Privacy</a>
-      </div>
-      <div class="link-row">
-        <span>App Store: <a href="https://apps.apple.com/us/app/feeder-snack-control/id6760721222?mt=12">Feeder Snack Control</a></span>
-        <span>Website: <a href="https://nealmueller.github.io/feeder-snack-control/">nealmueller.github.io/feeder-snack-control</a></span>
-      </div>
+      <a class="cta" href="https://apps.apple.com/us/app/feeder-snack-control/id6760721222?mt=12" aria-label="Download on the App Store">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M16.37 12.33c.02 2.43 2.13 3.24 2.15 3.25-.02.06-.34 1.19-1.11 2.35-.67 1-1.37 1.99-2.47 2.01-1.08.02-1.43-.64-2.67-.64s-1.62.62-2.65.66c-1.03.04-1.82-1.04-2.49-2.03-1.37-1.98-2.41-5.58-1.01-8.01.69-1.21 1.94-1.98 3.29-2 1.03-.02 2 .69 2.67.69.67 0 1.93-.86 3.25-.73.55.02 2.09.22 3.08 1.67-.08.05-1.84 1.08-1.82 2.78Zm-2.19-5.78c.56-.68.94-1.64.84-2.58-.81.03-1.79.54-2.37 1.22-.52.59-.98 1.56-.85 2.47.91.07 1.82-.46 2.38-1.11Z"/>
+        </svg>
+        Download on the App Store
+      </a>
       <div class="grid">
         <article class="card">
           <h2>Control Center first</h2>
@@ -154,6 +145,8 @@
         Unofficial utility for supported feeder hardware. Not affiliated with or endorsed by the hardware vendor.
         <br>
         Includes open source software, including <a href="https://github.com/natekspencer/pylitterbot">pylitterbot</a> by Nathan Spencer. See <a href="./notices.html">Open Source Notices</a>.
+        <br>
+        <span class="footer-links"><a href="./privacy.html">Privacy</a></span>
       </footer>
     </section>
   </main>
